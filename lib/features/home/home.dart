@@ -24,8 +24,10 @@ class HomeScreen extends StatelessWidget {
                 5,
                   (index) => Padding(padding: const EdgeInsets.only(right: 16),
                   child: SongCard(
-                      imageUrl: 'https://via.placeholder.com/150',
-                      title: 'Song Title $index', artist: 'Khan'),)
+                      imageUrl: 'https://pixabay.com/photos/woman-train-kyoto-japan-people-9189442/',
+                      title: 'Song Title $index',
+                      artist: 'Khan')
+                    ,)
               ),
             ),
           )
